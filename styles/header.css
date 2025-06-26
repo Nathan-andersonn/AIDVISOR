@@ -21,7 +21,7 @@
     }
 
     .middle-section{
-        margin-right: -60px;
+        margin-right: -75px;
     }
     
     .logo{
@@ -33,6 +33,7 @@
     .features,
     .pricing,
     .info{
+        font-size: 12px;
         margin: 10px;
         padding: 10px;
         border-radius: 20px;
@@ -42,6 +43,7 @@
     }
 
     .contact{
+        font-size: 12px;
         margin: 10px;
         margin-right: 30px;
         padding: 10px;
