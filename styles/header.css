@@ -16,12 +16,13 @@
     .left-section,
     .right-section,
     .middle-section{
-        display: flex;
+        display: grid;
         align-items: center;
     }
 
     .middle-section{
-        margin-right: -75px;
+        display: flex;
+        margin-right: -5fr;
     }
     
     .logo{
@@ -30,9 +31,7 @@
         margin-left: 30px;
     }
 
-    .features,
-    .pricing,
-    .info{
+    button{
         font-size: 12px;
         margin: 10px;
         padding: 10px;
@@ -53,19 +52,16 @@
         border: none;
     }
 
-    .features:active,
-    .pricing:active,
-    .info:active,
-    .contact:active{
-        background-color: rgb(195, 195, 195);
-    }
-
-    .features:hover,
-    .pricing:hover,
-    .info:hover,
-    .contact:hover,
+    button:hover,
     .logo:hover{
+        background-color: rgb(235, 235, 235);
+        transition-duration: 80ms;
         cursor: pointer;
     }
 
+    button:active{
+        background-color: rgb(164, 164, 164);;
+        transition-duration: 80ms;
+        cursor: default;
+    }
 }
