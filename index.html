@@ -22,13 +22,13 @@
       <img class="logo" src="images/AIDVISOR-LOGO.png">
     </div>
     <div class="middle-section">
-      <button class="features">
+      <button onclick="scrolltofeatures()" class="features">
         Features
       </button>
-      <button class="pricing">
+      <button onclick="scrolltoprices()" class="pricing">
         Pricing
       </button>
-      <button class="info">
+      <button onclick="scrolltoinfo()" class="info">
         Info
       </button>
     </div>
@@ -50,7 +50,7 @@
         Made by students, for students!
       </p>
     </section>
-    <section class="feature-row">
+    <section id="feat-row" class="feature-row">
       <div class="feature">
         <p class="top-feature-row">
           Providing 24/7 accurate academic advising via our trained agentic AI!
@@ -72,7 +72,7 @@
       </div>
       <img class="feature-photo" src="images/image-placeholder.png">
     </section>
-    <section class="pricing-row">
+    <section id="pric-row" class="pricing-row">
       <p class="top-price-row">
         Our pricing model for academic institutions
       </p>
@@ -100,7 +100,7 @@
         </button>
       </div>
     </section>
-    <section class="information-row">
+    <section id="info-row" class="information-row">
       <div class="info-stack">
         <p class="top-information-row">
           Why choose Aidvisor?
@@ -124,5 +124,21 @@
     </section>
   </div>
   <footer>&copy; 2025 Aidvisor. All rights reserved.</footer>
+
+<script>
+  function scrolltofeatures(){
+    var featurescroll = document.getElementById('feat-row');
+    featurescroll.scrollIntoView();
+  }
+  function scrolltoprices(){
+    var featurescroll = document.getElementById('pric-row');
+    featurescroll.scrollIntoView();
+  }
+  function scrolltoinfo(){
+    var featurescroll = document.getElementById('info-row');
+    featurescroll.scrollIntoView();
+  }
+</script>
+
 </body>
 </html>

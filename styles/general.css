@@ -1,4 +1,5 @@
 * {
+  scroll-behavior: smooth;
   font-family: "JetBrains Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -147,7 +148,6 @@ body {
 }
 
 footer {
-  background-color: white;
   text-align: center;
   align-items: center;
   justify-content: center;
