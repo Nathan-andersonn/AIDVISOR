@@ -79,6 +79,21 @@ body {
   line-height: 1.1;
 }
 
+.top-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.top-noti-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .feature-info,
 .pricing-top-text,
 .information-text{
@@ -128,8 +143,7 @@ body {
 
 @media (max-width: 768px) {
   .feature-row, 
-  .information-row,
-  .top-row {
+  .information-row {
     flex-direction: column;
     text-align: left;
   }
